@@ -8,7 +8,7 @@ public class ShowArray {
             for (int j = 0; j < array[k].length; j++) {
 
                 for (int i = 0; i < array[k][j].length; i++) {
-                    System.out.print(array[k][j][i] + "["+k+","+j+","+i+"]"+" ");
+                    System.out.print(array[k][j][i] + "[" + k + "," + j + "," + i + "]" + " ");
                 }
                 System.out.println();
 
@@ -17,6 +17,6 @@ public class ShowArray {
         }
     }
 
-    }
+}
 
 
